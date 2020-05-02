@@ -24,4 +24,7 @@
   padding: 2em;
   border-radius: 2em;
 }
+.proyect p {
+  line-height: 2;
+}
 </style>
