@@ -6,6 +6,8 @@
         <span v-if="showUnderscore" id="console-underscore">&#95;</span>
       </h1>
     </div>
+    <h2>Projects that I've been working on</h2>
+    <ProyectViewer />
   </div>
 </template>
 
