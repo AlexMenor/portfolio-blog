@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div class="post-preview" v-for="post in pages">
+    <div
+      class="post-preview"
+      v-for="post in pages"
+      @click="$router.push(post.path)"
+    >
       <h3>{{ post.title }}</h3>
       <p class="post-description">{{ post.frontmatter.description }}</p>
       <img class="post-image" :src="post.frontmatter.image" alt="Post image" />
@@ -22,6 +26,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.post-preview:hover {
+  cursor: pointer;
 }
 .post-description {
   white-space: nowrap;
