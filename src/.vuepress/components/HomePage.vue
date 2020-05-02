@@ -2,7 +2,7 @@
   <div class="home-page-content">
     <div>
       <h1>
-        {{currentConsoleText}}
+        {{ currentConsoleText }}
         <span v-if="showUnderscore" id="console-underscore">&#95;</span>
       </h1>
     </div>
@@ -14,9 +14,9 @@ export default {
   data() {
     return {
       showUnderscore: false,
-      consoleText: "I like to do Backend Development",
+      consoleText: "I like to do Backend Development.",
       typePosition: 0,
-      typeInterval: null
+      typeInterval: null,
     };
   },
   mounted() {
@@ -31,13 +31,13 @@ export default {
       if (Math.random() < 0.8) this.typePosition++;
       if (this.typePosition == this.consoleText.length)
         clearInterval(this.typeInterval);
-    }
+    },
   },
   computed: {
     currentConsoleText() {
       return this.consoleText.slice(0, this.typePosition);
-    }
-  }
+    },
+  },
 };
 </script>
 
