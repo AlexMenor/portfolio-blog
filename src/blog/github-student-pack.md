@@ -7,7 +7,7 @@ image: https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2
 
 # The GitHub Student Pack free resources that you shouldn't miss
 
-Since 2014, GitHub have been providing students with free access to some tools that enable them to practice in a real world environment. In the moment I'm writing this, there are 107 different offers that you can take advantage of. I've been able to try several of them in the past year. What of them are worth the most? 
+Since 2014, GitHub have been providing students with free access to some tools that enable them to practice in a real world environment. In the moment I'm writing this, there are 107 different offers that you can take advantage of. I've been able to try several of them in the past year. Which of them are worth the most? 
 
 ![https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80](https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80)
 
