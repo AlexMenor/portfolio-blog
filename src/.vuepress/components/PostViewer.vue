@@ -1,12 +1,8 @@
 <template>
   <div>
-    <div
-      class="post-preview"
-      v-for="post in pages"
-      @click="$router.push(post.path)"
-    >
+    <div class="post-preview" v-for="post in pages" @click="$router.push(post.path)">
       <h3>{{ post.title }}</h3>
-      <p class="post-description">{{ post.frontmatter.description }}</p>
+      <p class="post-description">{{ post.frontmatter.description.substring(0,160) + '...' }}</p>
       <img class="post-image" :src="post.frontmatter.image" alt="Post image" />
     </div>
   </div>
@@ -15,9 +11,9 @@
 export default {
   computed: {
     pages() {
-      return this.$site.pages.filter((p) => p.frontmatter.type === "article");
-    },
-  },
+      return this.$site.pages.filter(p => p.frontmatter.type === "article");
+    }
+  }
 };
 </script>
 
@@ -29,11 +25,6 @@ export default {
 }
 .post-preview:hover {
   cursor: pointer;
-}
-.post-description {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .post-image {
   object-fit: cover;
