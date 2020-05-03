@@ -11,7 +11,7 @@ Since 2014, GitHub have been providing students with free access to some tools t
 
 ![https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80](https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80)
 
-## Heroku's free two year d*yno*
+## Heroku's free two year dyno
 
 I'm very glad I started messing around with deployments of code and [Heroku](http://heroku.com) was a perfect introduction to the matter. Heroku is a *Platform as a service* that allows you to deploy any server side code such as *Node, Ruby or Python* from a Git repository, abstracting you from the infrastructure details. 
 
@@ -34,7 +34,7 @@ Even though I've read bad things about this service I found it very straightforw
 
 - You can get 50$ in credits for Digital Ocean, and even though it's half the offer of Azure, they lasted me much longer.
 
-## Free domain: Namecheap, [name.com](http://name.com) and .tech
+## Free domain: Namecheap, name.com and .tech
 
 A landing page is something that many developers have and a chance to show the world some of your projects or to stand out between candidates for a job offer.
 
