@@ -13,16 +13,23 @@
       passion. More specifically: Server Side Programming, Cloud Computing and
       API Design.
     </p>
+    <p>
+      I'm right now working at
+      <a href="http://pantala.es">Pantala</a> while I finish my degree. I'm also
+      the lead of
+      <a href="https://developers.google.com/community/dsc">DSC</a> in Granada.
+    </p>
     <h2>Some of the technologies I enjoy the most are</h2>
     <ul>
       <li>NodeJS with NestJS as a framework</li>
+      <li>Spring Boot</li>
       <li>PostgreSQL and MongoDB</li>
       <li>GoLang</li>
       <li>Vue</li>
       <li>Flutter</li>
     </ul>
     <h2>Projects that I've been working on</h2>
-    <ProyectViewer />
+    <ProjectViewer />
   </div>
 </template>
 

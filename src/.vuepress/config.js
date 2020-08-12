@@ -1,7 +1,9 @@
 module.exports = {
   title: "Alejandro Menor",
   description: "Alejandro Menor - Backend Developer",
+  theme: "default-prefers-color-scheme",
   themeConfig: {
+    defaultTheme: "dark",
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },

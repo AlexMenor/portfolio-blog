@@ -1,8 +1,8 @@
 <template>
   <div class="grid">
-    <div class="proyect" v-for="proyect in $frontmatter.proyects">
-      <img :src="proyect.image" :alt="proyect.name" />
-      <p>{{ proyect.description }}</p>
+    <div class="project" v-for="project in $frontmatter.projects">
+      <img :src="project.image" :alt="project.name" />
+      <p>{{ project.description }}</p>
     </div>
   </div>
 </template>
@@ -16,15 +16,15 @@
   justify-content: center;
   align-items: center;
 }
-.proyect img {
+.project img {
   max-width: 60%;
 }
-.proyect {
+.project {
   border: solid #ccc 1px;
   padding: 2em;
   border-radius: 2em;
 }
-.proyect p {
+.project p {
   line-height: 2;
 }
 </style>

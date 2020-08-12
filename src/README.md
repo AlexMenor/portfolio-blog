@@ -4,19 +4,19 @@ heroImage: null
 pageClass: homepage
 heroText: null
 tagline: null
-proyects: 
+projects:
   - name: Pantala
-    description: Selecciona las 3 prendas que más te gusten, disfrútalas durante un mes, devuélvelas y escoge las prendas que quieras usar el mes siguiente. En Pantala nos basamos en la economía circular para desarrollar nuestro servicio, alargando el ciclo de vida de las prendas y sacando así el máximo partido de estas.
+    description: An unlimited closet as a service. In a world where fast fashion is a thing, we want our customers to have choice and joy for what they wear while being friendly to our planet.
     image: /pantala.png
   - name: Kanuki
-    description: Kanuki es una plataforma de contenido, damos el espacio y herramientas para que los creadores puedan crear blogs y los usuarios puedan seguir autores y comunidades de su interés.
+    description: Kanuki is a content platform, we provide the space and tools so the creators can share their talent with the world.
     image: /kanuki.png
   - name: Elderband
-    description: Nuestra misión en Vodafone Campus Lab es ayudar a paliar la soledad de las personas mayores. Combinando las mejores soluciones y tecnologías del siglo XXI y la motivación por construir una mejor sociedad, trabajamos para desarrollar una solución efectiva y sencilla que nos haga volver a conectar.
+    description: Our goal in Vodafone Campus Lab is to help palliate the loneliness of elderly persons. We combine the best tools and technologies of XXI century with the willingness of building a better society. Working to develop an effective solution that allows us to connect again.
     image: /vodafone.png
   - name: Routeleo
-    description: En Routeleo cumplimos el sueño de los viajeros con presupuesto limitado. Descubre combinaciones de medios de transporte para abaratar el viaje y los mejores consejos para visitar los lugares más bonitos del mundo.
+    description: In Routeleo we fulfill the dream of travellers on a budget. Discover the way to get more for less and be able to get to the best places in the world.
     image: /routeleo.png
-
 ---
+
 <HomePage/>
