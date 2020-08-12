@@ -15,8 +15,8 @@
     </p>
     <p>
       I'm right now working at
-      <a href="http://pantala.es">Pantala</a> while I finish my degree. I'm also
-      the lead of
+      <a href="https://pantala.es">Pantala</a> while I finish my degree. I'm
+      also the lead of
       <a href="https://developers.google.com/community/dsc">DSC</a> in Granada.
     </p>
     <h2>Some of the technologies I enjoy the most are</h2>
