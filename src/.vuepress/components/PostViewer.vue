@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="post-viewer">
     <div class="post-preview" v-for="post in pages" @click="$router.push(post.path)">
       <h3>{{ post.title }}</h3>
       <p class="post-description">{{ post.frontmatter.description.substring(0,160) + '...' }}</p>
@@ -18,6 +18,9 @@ export default {
 </script>
 
 <style scoped>
+.post-viewer {
+  border-top: 1px solid grey;
+}
 .post-preview {
   display: flex;
   flex-direction: column;
