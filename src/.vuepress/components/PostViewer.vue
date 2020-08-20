@@ -11,7 +11,7 @@
 export default {
   computed: {
     pages() {
-      return this.$site.pages.filter(p => p.frontmatter.type === "article");
+      return this.$site.pages.filter(p => p.frontmatter.type === "article").reverse()
     }
   }
 };
