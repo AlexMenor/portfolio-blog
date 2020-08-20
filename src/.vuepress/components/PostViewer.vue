@@ -4,6 +4,7 @@
       <h3>{{ post.title }}</h3>
       <p class="post-description">{{ post.frontmatter.description.substring(0,160) + '...' }}</p>
       <img class="post-image" :src="post.frontmatter.image" alt="Post image" />
+      <div class="separator"></div>
     </div>
   </div>
 </template>
@@ -25,6 +26,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center;
 }
 .post-preview:hover {
   cursor: pointer;
@@ -32,5 +34,10 @@ export default {
 .post-image {
   object-fit: cover;
   max-height: 25em;
+}
+.separator {
+  margin-top:1em;
+  border-bottom: 1px solid grey;
+  width: 30%;
 }
 </style>
