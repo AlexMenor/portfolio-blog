@@ -2,7 +2,7 @@
 title: Is "fundamentals first" the best approach to learning web development?
 description: A bit more than a year ago I started learning web development. Coming from a Computer Science background, where the I/O with computers is usually based on a terminal, they were exciting times. So I started focusing on fundamentals as most people recommended HTML, CSS and Javascript. 
 type: article
-image: https://unsplash.com/photos/IgUR1iX0mqM/download?force=true&w=640
+image: https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80
 ---
 
 # Is "fundamentals first" the best approach to learning web development?
